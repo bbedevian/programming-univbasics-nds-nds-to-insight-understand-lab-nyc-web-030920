@@ -9,5 +9,10 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-return directors_database[Stephen Speilberg][:movies][0][:title]
+  movie_index = 0
+  title_index = 0
+  while movie_index < directors_database.length
+  if directors_database[movie_index] == "Stephen Speilberg"
+return directors_database[movie_index][:movies][title_index][:title]
+index +=1
 end
