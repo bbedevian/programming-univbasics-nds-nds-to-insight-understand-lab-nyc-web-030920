@@ -13,8 +13,9 @@ def print_first_directors_movie_titles
   title_index = 0
   while name_index < directors_database.length
   if directors_database[name_index] == "Stephen Speilberg"
+    while title_index < 
 return directors_database[movie_index][:movies][title_index][:title]
 
-name_ index +=1
+name_index +=1
 end 
 end
