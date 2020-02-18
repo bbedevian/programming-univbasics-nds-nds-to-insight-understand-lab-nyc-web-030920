@@ -11,6 +11,6 @@ end
 def print_first_directors_movie_titles
   row_index = 0
  
-   
+if directors[] 
 puts "\n  
 end
