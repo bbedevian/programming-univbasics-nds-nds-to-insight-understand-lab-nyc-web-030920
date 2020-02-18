@@ -9,8 +9,5 @@ def pretty_print_nds(nds)
 end
 
 def print_first_directors_movie_titles
-  row_index = 0
- 
-if directors[] 
-puts "\n  
+print directors_database  
 end
